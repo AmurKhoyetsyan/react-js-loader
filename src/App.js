@@ -1,24 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import Loader from "react-js-loader";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className={"row"}>
+        <div className={"item"}>
+          <Loader type="box" typeCount={1} bgColor={"#FFFFFF"} />
+        </div>
+        <div className={"item"}>
+          <Loader type="box" typeCount={2} bgColor={"#FFFFFF"} />
+        </div>
+        <div className={"item"}>
+          <Loader type="box" typeCount={3} bgColor={"#FFFFFF"} />
+        </div>
+      </div>
+      <div className={"row"}>
+        <div className={"item"}>
+          <Loader type="bubble" typeCount={1} bgColor={"#FFFFFF"} />
+        </div>
+        <div className={"item"}>
+          <Loader type="heart" bgColor={"#FFFFFF"} />
+        </div>
+        <div className={"item"}>
+          <Loader type="bubble" typeCount={2} bgColor={"#FFFFFF"} />
+        </div>
+      </div>
+      <div className={"row"}>
+        <div className={"item"}>
+          <Loader type="spinner" typeCount={1} bgColor={"#FFFFFF"} />
+        </div>
+        <div className={"item"}>
+          <Loader type="spinner" typeCount={2} bgColor={"#FFFFFF"} />
+        </div>
+        <div className={"item"}>
+          <Loader type="spinner" typeCount={3} bgColor={"#FFFFFF"} />
+        </div>
+      </div>
     </div>
   );
 }
