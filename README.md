@@ -4,7 +4,7 @@
 
     npm i react-js-loader
 
-<img src="https://github.com/AmurKhoyetsyan/React-js-loader/img/loader.gif" alt="loader" />
+<img src="https://raw.githubusercontent.com/AmurKhoyetsyan/react-js-loader/master/img/loader.gif" alt="loader" />
 
 props
 
