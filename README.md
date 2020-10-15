@@ -81,3 +81,16 @@ props
             </div>
         </div>
     );
+    
+    
+    
+<details>
+<summary>Config</summary>
+
+|Config              | Commands                                         |
+|:-------------------|-------------------------------------------------:|
+|add global user name| git config --global user.name "UserName"         |
+|add global e-mail   | git config --global user.email "user@e-mail.com" |
+|config lists        | git config --list                                |
+
+</details>
