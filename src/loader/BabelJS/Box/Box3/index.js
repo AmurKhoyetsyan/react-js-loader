@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 const Box3 = props => (
-    <div className={"box2"}>
+    <div className={"box3"}>
         <div className={"loader"}>
             <div className={"loader-items"}>
                 <div className={"parent-cub"}>

@@ -9,13 +9,13 @@ function App() {
     <div className="App">
       <div className={"row"}>
         <div className={"item"}>
-          <Loader type="box" typeCount={1} bgColor={"#FFFFFF"} />
+          <Loader type="box-rotate-x" bgColor={"#FFFFFF"} />
         </div>
         <div className={"item"}>
-          <Loader type="box" typeCount={2} bgColor={"#FFFFFF"} />
+          <Loader type="box-rotate-y" bgColor={"#FFFFFF"} />
         </div>
         <div className={"item"}>
-          <Loader type="box" typeCount={3} bgColor={"#FFFFFF"} />
+          <Loader type="box-rotate-z" bgColor={"#FFFFFF"} />
         </div>
       </div>
       <div className={"row"}>
