@@ -34,7 +34,7 @@
     font-size: 20px;
     font-weight: 700;
     line-height: 1.7;
-    color: #FFFFFF;
+    color: var(--cl);
 }
 
 .box4 .loader .loader-items {
@@ -60,7 +60,7 @@
 .box4 .loader .loader-items .rectangular {
     width: 10px;
     height: 25px;
-    background-color: #FFFFFF;
+    background-color: var(--bg);
     border-radius: 5px;
     -webkit-animation: box4 600ms ease-in-out infinite;
     -moz-animation: box4 600ms ease-in-out infinite;
