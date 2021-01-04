@@ -19,19 +19,19 @@ var Bubble2 = function Bubble2(props) {
   }, _react.default.createElement("div", {
     className: "loader-items"
   }, _react.default.createElement("div", {
-    className: "buble",
+    className: "bubble",
     style: {
       "--i": 1,
       "--bg": props.bgColor || "#FFFFFF"
     }
   }), _react.default.createElement("div", {
-    className: "buble",
+    className: "bubble",
     style: {
       "--i": 2,
       "--bg": props.bgColor || "#FFFFFF"
     }
   }), _react.default.createElement("div", {
-    className: "buble",
+    className: "bubble",
     style: {
       "--i": 3,
       "--bg": props.bgColor || "#FFFFFF"

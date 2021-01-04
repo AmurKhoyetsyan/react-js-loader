@@ -11,9 +11,9 @@ require("./style.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Bubble1 = function Bubble1(props) {
+var Bubble3 = function Bubble3(props) {
   return _react.default.createElement("div", {
-    className: "bubble1"
+    className: "bubble3"
   }, _react.default.createElement("div", {
     className: "loader"
   }, _react.default.createElement("div", {
@@ -21,13 +21,13 @@ var Bubble1 = function Bubble1(props) {
   }, _react.default.createElement("div", {
     className: "bubble",
     style: {
-      "--i": 1,
+      "--i": 0,
       "--bg": props.bgColor || "#FFFFFF"
     }
   }), _react.default.createElement("div", {
     className: "bubble",
     style: {
-      "--i": 2,
+      "--i": 1,
       "--bg": props.bgColor || "#FFFFFF"
     }
   }), _react.default.createElement("div", {
@@ -44,5 +44,5 @@ var Bubble1 = function Bubble1(props) {
   }, _react.default.createElement("span", null, props.title)) : null);
 };
 
-var _default = Bubble1;
+var _default = Bubble3;
 exports.default = _default;
