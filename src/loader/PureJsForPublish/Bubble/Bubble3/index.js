@@ -33,7 +33,7 @@ var Bubble3 = function Bubble3(props) {
   }), _react.default.createElement("div", {
     className: "bubble",
     style: {
-      "--i": 3,
+      "--i": 2,
       "--bg": props.bgColor || "#FFFFFF"
     }
   }))), props.title !== undefined ? _react.default.createElement("div", {

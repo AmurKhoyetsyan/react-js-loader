@@ -1,0 +1,135 @@
+.box4,
+.box4 * {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.box4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.box4 .loader {
+    width: 100px;
+}
+
+.box4 .loader-title {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.7;
+    color: #FFFFFF;
+}
+
+.box4 .loader .loader-items {
+    width: 100%;
+    height: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.box4 .loader .loader-items .rectangular {
+    width: 10px;
+    height: 25px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    -webkit-animation: box4 600ms ease-in-out infinite;
+    -moz-animation: box4 600ms ease-in-out infinite;
+    -ms-animation: box4 600ms ease-in-out infinite;
+    -o-animation: box4 600ms ease-in-out infinite;
+    animation: box4 600ms ease-in-out infinite;
+    -webkit-animation-delay: calc(var(--i) * 650ms);
+    -moz-animation-delay: calc(var(--i) * 650ms);
+    -ms-animation-delay: calc(var(--i) * 650ms);
+    -o-animation-delay: calc(var(--i) * 650ms);
+    animation-delay: calc(var(--i) * 650ms);
+}
+
+@keyframes box4 {
+    from {
+        height: 30px;
+    }
+    50% {
+        height: 60px;
+    }
+    to {
+        height: 30px;
+    }
+}
+
+@-webkit-keyframes box4 {
+    from {
+        height: 30px;
+    }
+    50% {
+        height: 60px;
+    }
+    to {
+        height: 30px;
+    }
+}
+
+@-moz-keyframes box4 {
+    from {
+        height: 30px;
+    }
+    50% {
+        height: 60px;
+    }
+    to {
+        height: 30px;
+    }
+}
+
+@-ms-keyframes box4 {
+    from {
+        height: 30px;
+    }
+    50% {
+        height: 60px;
+    }
+    to {
+        height: 30px;
+    }
+}
+
+@-o-keyframes box4 {
+    from {
+        height: 30px;
+    }
+    50% {
+        height: 60px;
+    }
+    to {
+        height: 30px;
+    }
+}

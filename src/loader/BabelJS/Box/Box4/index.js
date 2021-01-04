@@ -1,20 +1,28 @@
 import React from "react";
 import "./style.css";
 
-const Bubble3 = props => (
-    <div className={"bubble3"}>
+const Box4 = props => (
+    <div className={"box4"}>
         <div className={"loader"}>
             <div className={"loader-items"}>
-                <div className={"bubble"} style={{
-                    "--i" : 0,
-                    "--bg" : props.bgColor || "#FFFFFF"
-                }}></div>
-                <div className={"bubble"} style={{
+                <div className={"rectangular"} style={{
                     "--i" : 1,
                     "--bg" : props.bgColor || "#FFFFFF"
                 }}></div>
-                <div className={"bubble"} style={{
+                <div className={"rectangular"} style={{
                     "--i" : 2,
+                    "--bg" : props.bgColor || "#FFFFFF"
+                }}></div>
+                <div className={"rectangular"} style={{
+                    "--i" : 3,
+                    "--bg" : props.bgColor || "#FFFFFF"
+                }}></div>
+                <div className={"rectangular"} style={{
+                    "--i" : 4,
+                    "--bg" : props.bgColor || "#FFFFFF"
+                }}></div>
+                <div className={"rectangular"} style={{
+                    "--i" : 5,
                     "--bg" : props.bgColor || "#FFFFFF"
                 }}></div>
             </div>
@@ -33,4 +41,4 @@ const Bubble3 = props => (
     </div>
 );
 
-export default Bubble3;
+export default Box4;
