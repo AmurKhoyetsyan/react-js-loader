@@ -21,7 +21,7 @@
   width: 150px;
   height: 150px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
