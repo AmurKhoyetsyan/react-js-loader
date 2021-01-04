@@ -17,15 +17,17 @@ props
 | title               | String             |
 | LICENSE             | [LICENSE](LICENSE) |
 
-    type = box || spinner || heart || bubble
-
-    box typeCount = 1 || 2 || 3
-
-    spinner typeCount = 1 || 2 || 3
-
-    heart typeCount = none
-
-    bubble typeCount = 1 || 2 
+| Types               |
+| ------------------- |
+| box-rotate-x        |
+| box-rotate-y        |
+| box-rotate-z        |
+| heart               |
+| bubble-scale        |
+| bubble-top          |
+| spinner-cub         |
+| spinner-circle      |
+| spinner-default     |
 
     bgColor and bgColor = rgb or hex
 
@@ -48,35 +50,35 @@ props
         <div className="App">
             <div className={"row"}>
                 <div className={"item"}>
-                    <Loader type="box" typeCount={1} bgColor={"#FFFFFF"} />
+                    <Loader type="box-rotate-x" bgColor={"#FFFFFF"} />
                 </div>
                 <div className={"item"}>
-                    <Loader type="box" typeCount={2} bgColor={"#FFFFFF"} />
+                    <Loader type="box-rotate-y" bgColor={"#FFFFFF"} />
                 </div>
                 <div className={"item"}>
-                    <Loader type="box" typeCount={3} bgColor={"#FFFFFF"} title={"Loding"} color={"#FFFFFF"} />
-                </div>
-            </div>
-            <div className={"row"}>
-                <div className={"item"}>
-                    <Loader type="bubble" typeCount={1} bgColor={"#FFFFFF"} title={"Loding"} color={"#FFFFFF"} />
-                </div>
-                <div className={"item"}>
-                    <Loader type="heart" bgColor={"#FFFFFF"} title={"Loding"} color={"#FFFFFF"} />
-                </div>
-                <div className={"item"}>
-                    <Loader type="bubble" typeCount={2} bgColor={"#FFFFFF"} title={"Loding"} color={"#FFFFFF"} />
+                    <Loader type="box-rotate-z" bgColor={"#FFFFFF"} />
                 </div>
             </div>
             <div className={"row"}>
                 <div className={"item"}>
-                    <Loader type="spinner" typeCount={1} bgColor={"#FFFFFF"} title={"Loding"} color={"#FFFFFF"} />
+                    <Loader type="bubble-scale" bgColor={"#FFFFFF"} />
                 </div>
                 <div className={"item"}>
-                    <Loader type="spinner" typeCount={2} bgColor={"#FFFFFF"} title={"Loding"} color={"#FFFFFF"} />
+                    <Loader type="heart" bgColor={"#FFFFFF"} />
                 </div>
                 <div className={"item"}>
-                    <Loader type="spinner" typeCount={3} bgColor={"#FFFFFF"} title={"Loding"} color={"#FFFFFF"} />
+                    <Loader type="bubble-top" bgColor={"#FFFFFF"} />
+                </div>
+            </div>
+            <div className={"row"}>
+                <div className={"item"}>
+                    <Loader type="spinner-cub" bgColor={"#FFFFFF"} />
+                </div>
+                <div className={"item"}>
+                    <Loader type="spinner-circle" bgColor={"#FFFFFF"} />
+                </div>
+                <div className={"item"}>
+                    <Loader type="spinner-default" bgColor={"#FFFFFF"} />
                 </div>
             </div>
         </div>
