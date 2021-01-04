@@ -1,0 +1,26 @@
+{
+  "name": "react-js-loader",
+  "version": "0.0.2",
+  "description": "animation loader and spinner for react js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmurKhoyetsyan/react-js-loader.git"
+  },
+  "keywords": [
+    "spinner",
+    "loader",
+    "react-js-loader",
+    "react-js-spinner",
+    "animation"
+  ],
+  "author": "Amur Khoyetsyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmurKhoyetsyan/react-js-loader/issues"
+  },
+  "homepage": "https://github.com/AmurKhoyetsyan/react-js-loader#readme"
+}

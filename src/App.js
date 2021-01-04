@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 
-import Loader from "react-js-loader";
+// import Loader from "react-js-loader";
+import Loader from './loader/BabelJS';
 
 function App() {
   return (

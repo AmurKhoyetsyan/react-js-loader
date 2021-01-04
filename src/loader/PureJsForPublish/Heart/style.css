@@ -1,0 +1,187 @@
+.heart1,
+.heart1 * {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.heart1 .loader {
+    width: 100px;
+}
+
+.heart1 .loader-title {
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.7;
+    font-size: 20px;
+    color: var(--cl);
+}
+
+.heart1 .loader .loader-items {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.heart1 .loader .loader-items .heart {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-85%, -75%);
+    -moz-transform: translate(-85%, -75%);
+    -ms-transform: translate(-85%, -75%);
+    -o-transform: translate(-85%, -75%);
+    transform: translate(-85%, -75%);
+    background-color: var(--bg);
+    -webkit-animation: heart1 1000ms linear infinite;
+    -moz-animation: heart1 1000ms linear infinite;
+    -ms-animation: heart1 1000ms linear infinite;
+    -o-animation: heart1 1000ms linear infinite;
+    animation: heart1 1000ms linear infinite;
+}
+
+.heart1 .loader .loader-items .heart::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    top: 0;
+    background-color: var(--bg);
+}
+
+.heart1 .loader .loader-items .heart::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    background-color: var(--bg);
+}
+
+@keyframes heart1 {
+    to {
+        transform: translate(-60%, -60%) scale(.5);
+    }
+    30% {
+        transform: translate(-80%, -70%) scale(.8);
+    }
+    60% {
+        transform: translate(-60%, -60%) scale(.5);
+    }
+    80% {
+        transform: translate(-80%, -70%) scale(.8);
+    }
+    from {
+        transform: translate(-85%, -75%) scale(1);
+    }
+}
+
+@-webkit-keyframes heart1 {
+    to {
+        -webkit-transform: translate(-60%, -60%) scale(.5);
+        transform: translate(-60%, -60%) scale(.5);
+    }
+    30% {
+        -webkit-transform: translate(-80%, -70%) scale(.8);
+        transform: translate(-80%, -70%) scale(.8);
+    }
+    60% {
+        -webkit-transform: translate(-60%, -60%) scale(.5);
+        transform: translate(-60%, -60%) scale(.5);
+    }
+    80% {
+        -webkit-transform: translate(-80%, -70%) scale(.8);
+        transform: translate(-80%, -70%) scale(.8);
+    }
+    from {
+        -webkit-transform: translate(-85%, -75%) scale(1);
+        transform: translate(-85%, -75%) scale(1);
+    }
+}
+
+@-moz-keyframes heart1 {
+    to {
+        -moz-transform: translate(-60%, -60%) scale(.5);
+        transform: translate(-60%, -60%) scale(.5);
+    }
+    30% {
+        -moz-transform: translate(-80%, -70%) scale(.8);
+        transform: translate(-80%, -70%) scale(.8);
+    }
+    60% {
+        -moz-transform: translate(-60%, -60%) scale(.5);
+        transform: translate(-60%, -60%) scale(.5);
+    }
+    80% {
+        -moz-transform: translate(-80%, -70%) scale(.8);
+        transform: translate(-80%, -70%) scale(.8);
+    }
+    from {
+        -moz-transform: translate(-85%, -75%) scale(1);
+        transform: translate(-85%, -75%) scale(1);
+    }
+}
+
+@-ms-keyframes heart1 {
+    to {
+        -ms-transform: translate(-60%, -60%) scale(.5);
+        transform: translate(-60%, -60%) scale(.5);
+    }
+    30% {
+        -ms-transform: translate(-80%, -70%) scale(.8);
+        transform: translate(-80%, -70%) scale(.8);
+    }
+    60% {
+        -ms-transform: translate(-60%, -60%) scale(.5);
+        transform: translate(-60%, -60%) scale(.5);
+    }
+    80% {
+        -ms-transform: translate(-80%, -70%) scale(.8);
+        transform: translate(-80%, -70%) scale(.8);
+    }
+    from {
+        -ms-transform: translate(-85%, -75%) scale(1);
+        transform: translate(-85%, -75%) scale(1);
+    }
+}
+
+@-o-keyframes heart1 {
+    to {
+        -o-transform: translate(-60%, -60%) scale(.5);
+        transform: translate(-60%, -60%) scale(.5);
+    }
+    30% {
+        -o-transform: translate(-80%, -70%) scale(.8);
+        transform: translate(-80%, -70%) scale(.8);
+    }
+    60% {
+        -o-transform: translate(-60%, -60%) scale(.5);
+        transform: translate(-60%, -60%) scale(.5);
+    }
+    80% {
+        -o-transform: translate(-80%, -70%) scale(.8);
+        transform: translate(-80%, -70%) scale(.8);
+    }
+    from {
+        -o-transform: translate(-85%, -75%) scale(1);
+        transform: translate(-85%, -75%) scale(1);
+    }
+}
