@@ -24,6 +24,7 @@ props
 | heart               |
 | bubble-scale        |
 | bubble-top          |
+| bubble-ping         |
 | spinner-cub         |
 | spinner-circle      |
 | spinner-default     |
