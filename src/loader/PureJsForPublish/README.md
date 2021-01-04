@@ -11,7 +11,6 @@ props
 | Name                | Type               |
 | ------------------- | ------------------ |
 | type                | String             |
-| typeCount           | Number             |
 | bgColor             | String             |
 | color               | String             |
 | title               | String             |
