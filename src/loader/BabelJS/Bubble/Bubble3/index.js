@@ -1,16 +1,16 @@
 import React from "react";
 import "./style.css";
 
-const Bubble1 = props => (
-    <div className={"bubble1"}>
+const Bubble3 = props => (
+    <div className={"bubble3"}>
         <div className={"loader"}>
             <div className={"loader-items"}>
                 <div className={"bubble"} style={{
-                    "--i" : 1,
+                    "--i" : 0,
                     "--bg" : props.bgColor || "#FFFFFF"
                 }}></div>
                 <div className={"bubble"} style={{
-                    "--i" : 2,
+                    "--i" : 1,
                     "--bg" : props.bgColor || "#FFFFFF"
                 }}></div>
                 <div className={"bubble"} style={{
@@ -33,4 +33,4 @@ const Bubble1 = props => (
     </div>
 );
 
-export default Bubble1;
+export default Bubble3;

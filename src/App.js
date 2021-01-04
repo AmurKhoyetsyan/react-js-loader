@@ -40,6 +40,11 @@ function App() {
           <Loader type="spinner-default" bgColor={"#FFFFFF"} />
         </div>
       </div>
+      <div className={"row"}>
+        <div className={"item"}>
+          <Loader type="bubble-shadow" bgColor={"#FFFFFF"} />
+        </div>
+      </div>
     </div>
   );
 }

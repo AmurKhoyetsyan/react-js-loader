@@ -5,15 +5,15 @@ const Bubble2 = props => (
     <div className={"bubble2"}>
         <div className={"loader"}>
             <div className={"loader-items"}>
-                <div className={"buble"} style={{
+                <div className={"bubble"} style={{
                     "--i" : 1,
                     "--bg" : props.bgColor || "#FFFFFF"
                 }}></div>
-                <div className={"buble"} style={{
+                <div className={"bubble"} style={{
                     "--i" : 2,
                     "--bg" : props.bgColor || "#FFFFFF"
                 }}></div>
-                <div className={"buble"} style={{
+                <div className={"bubble"} style={{
                     "--i" : 3,
                     "--bg" : props.bgColor || "#FFFFFF"
                 }}></div>
