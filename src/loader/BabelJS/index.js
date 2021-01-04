@@ -21,7 +21,7 @@ const Loader = props => {
         case "spinner-cub": return <Spinner1 {...props} /> ; break;
         case "spinner-circle": return <Spinner2 {...props} /> ; break;
         case "spinner-default": return <Spinner3 {...props} /> ; break;
-        default: return <Box1 {...props} /> ;
+        default: return <Spinner3 {...props} /> ;
     }
 }
 

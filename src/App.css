@@ -18,8 +18,8 @@
 }
 
 .App .row > .item {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
