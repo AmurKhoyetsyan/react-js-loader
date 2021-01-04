@@ -19,7 +19,7 @@ const Loader = props => {
         case "heart": return <Heart {...props} />; break;
         case "bubble-scale": return <Bubble1 {...props} /> ; break;
         case "bubble-top": return <Bubble2 {...props} /> ; break;
-        case "bubble-shadow": return <Bubble3 {...props} /> ; break;
+        case "bubble-ping": return <Bubble3 {...props} /> ; break;
         case "spinner-cub": return <Spinner1 {...props} /> ; break;
         case "spinner-circle": return <Spinner2 {...props} /> ; break;
         case "spinner-default": return <Spinner3 {...props} /> ; break;

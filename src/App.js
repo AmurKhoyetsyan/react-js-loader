@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 // import Loader from "react-js-loader";
-import Loader from './loader/BabelJS';
+import Loader from './loader/PureJsForPublish';
 
 function App() {
   return (
@@ -42,7 +42,7 @@ function App() {
       </div>
       <div className={"row"}>
         <div className={"item"}>
-          <Loader type="bubble-shadow" bgColor={"#FFFFFF"} />
+          <Loader type="bubble-ping" bgColor={"#FFFFFF"} />
         </div>
       </div>
     </div>

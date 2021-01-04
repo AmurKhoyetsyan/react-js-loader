@@ -19,6 +19,8 @@ var _Bubble = _interopRequireDefault(require("./Bubble/Bubble1"));
 
 var _Bubble2 = _interopRequireDefault(require("./Bubble/Bubble2"));
 
+var _Bubble3 = _interopRequireDefault(require("./Bubble/Bubble3"));
+
 var _Spinner = _interopRequireDefault(require("./Spinner/Spinner1"));
 
 var _Spinner2 = _interopRequireDefault(require("./Spinner/Spinner2"));
@@ -53,6 +55,10 @@ var Loader = function Loader(props) {
 
     case "bubble-top":
       return _react.default.createElement(_Bubble2.default, props);
+      break;
+
+    case "bubble-ping":
+      return _react.default.createElement(_Bubble3.default, props);
       break;
 
     case "spinner-cub":
