@@ -31,13 +31,13 @@ function App() {
       </div>
       <div className={"row"}>
         <div className={"item"}>
-          <Loader type="spinner" typeCount={1} bgColor={"#FFFFFF"} />
+          <Loader type="spinner-cub" bgColor={"#FFFFFF"} />
         </div>
         <div className={"item"}>
-          <Loader type="spinner" typeCount={2} bgColor={"#FFFFFF"} />
+          <Loader type="spinner-circle" bgColor={"#FFFFFF"} />
         </div>
         <div className={"item"}>
-          <Loader type="spinner" typeCount={3} bgColor={"#FFFFFF"} />
+          <Loader type="spinner-default" bgColor={"#FFFFFF"} />
         </div>
       </div>
     </div>
