@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
 
-// import Loader from "react-js-loader";
-import Loader from './loader/BabelJS';
+import Loader from "react-js-loader";
 
 function App() {
   return (
@@ -43,6 +42,9 @@ function App() {
       <div className={"row"}>
         <div className={"item"}>
           <Loader type="bubble-ping" bgColor={"#FFFFFF"} title={"bubble-ping"} />
+        </div>
+        <div className={"item"}>
+          <Loader type="box-rectangular" bgColor={"#FFFFFF"} title={"box-rectangular"} />
         </div>
       </div>
     </div>

@@ -21,6 +21,7 @@ props
 | box-rotate-x        |
 | box-rotate-y        |
 | box-rotate-z        |
+| box-rectangular     |
 | heart               |
 | bubble-scale        |
 | bubble-top          |
@@ -84,6 +85,9 @@ props
             <div className={"row"}>
                 <div className={"item"}>
                     <Loader type="bubble-ping" bgColor={"#FFFFFF"} title={"bubble-ping"} />
+                </div>
+                <div className={"item"}>
+                    <Loader type="box-rectangular" bgColor={"#FFFFFF"} title={"box-rectangular"} />
                 </div>
             </div>
         </div>

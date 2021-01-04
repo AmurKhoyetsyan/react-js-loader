@@ -15,6 +15,8 @@ var _Box2 = _interopRequireDefault(require("./Box/Box2"));
 
 var _Box3 = _interopRequireDefault(require("./Box/Box3"));
 
+var _Box4 = _interopRequireDefault(require("./Box/Box4"));
+
 var _Bubble = _interopRequireDefault(require("./Bubble/Bubble1"));
 
 var _Bubble2 = _interopRequireDefault(require("./Bubble/Bubble2"));
@@ -30,8 +32,6 @@ var _Spinner3 = _interopRequireDefault(require("./Spinner/Spinner3"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Loader = function Loader(props) {
-  console.log(props);
-
   switch (props.type) {
     case "box-rotate-x":
       return _react.default.createElement(_Box.default, props);
@@ -43,6 +43,10 @@ var Loader = function Loader(props) {
 
     case "box-rotate-z":
       return _react.default.createElement(_Box3.default, props);
+      break;
+
+    case "box-rectangular":
+      return _react.default.createElement(_Box4.default, props);
       break;
 
     case "heart":
