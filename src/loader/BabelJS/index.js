@@ -12,7 +12,6 @@ import Spinner2 from "./Spinner/Spinner2";
 import Spinner3 from "./Spinner/Spinner3";
 
 const Loader = props => {
-    console.log(props);
     switch(props.type) {
         case "box-rotate-x": return <Box1 {...props} /> ; break;
         case "box-rotate-y": return <Box2 {...props} /> ; break;
