@@ -20,13 +20,13 @@ function App() {
       </div>
       <div className={"row"}>
         <div className={"item"}>
-          <Loader type="bubble" typeCount={1} bgColor={"#FFFFFF"} />
+          <Loader type="bubble-scale" bgColor={"#FFFFFF"} />
         </div>
         <div className={"item"}>
           <Loader type="heart" bgColor={"#FFFFFF"} />
         </div>
         <div className={"item"}>
-          <Loader type="bubble" typeCount={2} bgColor={"#FFFFFF"} />
+          <Loader type="bubble-top" bgColor={"#FFFFFF"} />
         </div>
       </div>
       <div className={"row"}>
