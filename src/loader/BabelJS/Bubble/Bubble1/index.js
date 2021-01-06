@@ -1,3 +1,8 @@
+/**
+ * React-js-loader by Amur
+ * https://github.com/AmurKhoyetsyan/react-js-loader
+ */
+
 import React from "react";
 import "./style.css";
 
