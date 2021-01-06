@@ -1,3 +1,8 @@
+/**
+ * React-js-loader by Amur
+ * https://github.com/AmurKhoyetsyan/react-js-loader
+ */
+
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
