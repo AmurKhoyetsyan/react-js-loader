@@ -1,3 +1,8 @@
+/**
+ * React-js-loader by Amur
+ * https://github.com/AmurKhoyetsyan/react-js-loader
+ */
+
 let rgbToHex = function (rgb) { 
     var hex = Number(rgb).toString(16);
     if (hex.length < 2) {
