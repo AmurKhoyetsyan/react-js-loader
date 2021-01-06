@@ -85,53 +85,53 @@
 
 @keyframes box3 {
     to {
-        transform: translate(-50%, -50%) rotateY(0deg);
+        transform: translate(-50%, -50%) rotateZ(0deg);
     }
     from {
-        transform: translate(-50%, -50%) rotateY(180deg);
+        transform: translate(-50%, -50%) rotateZ(180deg);
     }
 }
 
 @-webkit-keyframes box3 {
     to {
-        -webkit-transform: translate(-50%, -50%) rotateY(0deg);
-        transform: translate(-50%, -50%) rotateY(0deg);
+        -webkit-transform: translate(-50%, -50%) rotateZ(0deg);
+        transform: translate(-50%, -50%) rotateZ(0deg);
     }
     from {
-        -webkit-transform: translate(-50%, -50%) rotateY(180deg);
-        transform: translate(-50%, -50%) rotateY(180deg);
+        -webkit-transform: translate(-50%, -50%) rotateZ(180deg);
+        transform: translate(-50%, -50%) rotateZ(180deg);
     }
 }
 
 @-moz-keyframes box3 {
     to {
-        -moz-transform: translate(-50%, -50%) rotateY(0deg);
-        transform: translate(-50%, -50%) rotateY(0deg);
+        -moz-transform: translate(-50%, -50%) rotateZ(0deg);
+        transform: translate(-50%, -50%) rotateZ(0deg);
     }
     from {
-        -moz-transform: translate(-50%, -50%) rotateY(180deg);
-        transform: translate(-50%, -50%) rotateY(180deg);
+        -moz-transform: translate(-50%, -50%) rotateZ(180deg);
+        transform: translate(-50%, -50%) rotateZ(180deg);
     }
 }
 
 @-ms-keyframes box3 {
     to {
-        -ms-transform: translate(-50%, -50%) rotateY(0deg);
-        transform: translate(-50%, -50%) rotateY(0deg);
+        -ms-transform: translate(-50%, -50%) rotateZ(0deg);
+        transform: translate(-50%, -50%) rotateZ(0deg);
     }
     from {
-        -ms-transform: translate(-50%, -50%) rotateY(180deg);
-        transform: translate(-50%, -50%) rotateY(180deg);
+        -ms-transform: translate(-50%, -50%) rotateZ(180deg);
+        transform: translate(-50%, -50%) rotateZ(180deg);
     }
 }
 
 @-o-keyframes box3 {
     to {
-        -o-transform: translate(-50%, -50%) rotateY(0deg);
-        transform: translate(-50%, -50%) rotateY(0deg);
+        -o-transform: translate(-50%, -50%) rotateZ(0deg);
+        transform: translate(-50%, -50%) rotateZ(0deg);
     }
     from {
-        -o-transform: translate(-50%, -50%) rotateY(180deg);
-        transform: translate(-50%, -50%) rotateY(180deg);
+        -o-transform: translate(-50%, -50%) rotateZ(180deg);
+        transform: translate(-50%, -50%) rotateZ(180deg);
     }
 }

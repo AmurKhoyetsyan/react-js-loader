@@ -13,7 +13,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var Box3 = function Box3(props) {
   return _react.default.createElement("div", {
-    className: "box2"
+    className: "box3"
   }, _react.default.createElement("div", {
     className: "loader"
   }, _react.default.createElement("div", {
