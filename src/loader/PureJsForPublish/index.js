@@ -43,15 +43,6 @@ var _Ekvalayzer = _interopRequireDefault(require("./Ekvalayzer"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-/**
- * Copyright (c) Amur 2020
- * 
- * React-js-loader by Amur
- * https://github.com/AmurKhoyetsyan/react-js-loader
- * 
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
 var Loader = function Loader(props) {
   switch (props.type) {
     case "box-rotate-x":
