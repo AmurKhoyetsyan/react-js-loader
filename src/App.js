@@ -12,7 +12,7 @@ import React from 'react';
 import './App.css';
 
 // import Loader from "react-js-loader";
-import Loader from "./loader/BabelJS";
+import Loader from "./loader/PureJsForPublish";
 
 function App() {
   return (
