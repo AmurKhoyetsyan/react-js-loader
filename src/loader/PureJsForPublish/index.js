@@ -39,6 +39,8 @@ var _Spinner2 = _interopRequireDefault(require("./Spinner/Spinner2"));
 
 var _Spinner3 = _interopRequireDefault(require("./Spinner/Spinner3"));
 
+var _Ekvalayzer = _interopRequireDefault(require("./Ekvalayzer"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Loader = function Loader(props) {
@@ -85,6 +87,10 @@ var Loader = function Loader(props) {
 
     case "spinner-default":
       return _react.default.createElement(_Spinner3.default, props);
+      break;
+
+    case "ekvalayzer":
+      return _react.default.createElement(_Ekvalayzer.default, props);
       break;
 
     default:

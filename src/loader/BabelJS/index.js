@@ -20,6 +20,7 @@ import Bubble3 from "./Bubble/Bubble3";
 import Spinner1 from "./Spinner/Spinner1";
 import Spinner2 from "./Spinner/Spinner2";
 import Spinner3 from "./Spinner/Spinner3";
+import Ekvalayzer from './Ekvalayzer';
 
 const Loader = props => {
     switch(props.type) {
@@ -34,6 +35,7 @@ const Loader = props => {
         case "spinner-cub": return <Spinner1 {...props} /> ; break;
         case "spinner-circle": return <Spinner2 {...props} /> ; break;
         case "spinner-default": return <Spinner3 {...props} /> ; break;
+        case "ekvalayzer": return <Ekvalayzer {...props} /> ; break;
         default: return <Spinner3 {...props} /> ;
     }
 }
