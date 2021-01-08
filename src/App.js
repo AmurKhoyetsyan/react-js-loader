@@ -12,7 +12,7 @@ import React from 'react';
 import './App.css';
 
 // import Loader from "react-js-loader";
-import Loader from "./loader/PureJsForPublish";
+import Loader from "./loader/BabelJS";
 
 function App() {
   return (
@@ -53,6 +53,9 @@ function App() {
       <div className={"row"}>
         <div className={"item"}>
           <Loader type="bubble-ping" bgColor={"#FFFFFF"} title={"bubble-ping"} />
+        </div>
+        <div className={"item"}>
+          <Loader type="ekvalayzer" bgColor={"#FFFFFF"} title={"ekvalayzer"} />
         </div>
         <div className={"item"}>
           <Loader type="box-rectangular" bgColor={"#FFFFFF"} title={"box-rectangular"} />
