@@ -31,7 +31,7 @@ props
 | spinner-default     |
 | ekvalayzer          |
 
-    bgColor and bgColor = rgb or hex
+    color and bgColor = rgb or hex
 
 
 ### Example
