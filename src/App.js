@@ -10,7 +10,6 @@
 
 import React from 'react';
 import './App.css';
-
 import Loader from "react-js-loader";
 
 function App() {
@@ -58,6 +57,11 @@ function App() {
         </div>
         <div className={"item"}>
           <Loader type="box-rectangular" bgColor={"#FFFFFF"} title={"box-rectangular"} />
+        </div>
+      </div>
+      <div className={"row"}>
+        <div className={"item"}>
+          <Loader type="bubble-spin" bgColor={"#FFFFFF"} title={"bubble-spin"} />
         </div>
       </div>
     </div>
