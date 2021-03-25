@@ -16,6 +16,8 @@ props
 | title               | String             |
 | LICENSE             | [LICENSE](LICENSE) |
 
+<br />
+
 | Types               |
 | ------------------- |
 | box-rotate-x        |
@@ -26,10 +28,13 @@ props
 | bubble-scale        |
 | bubble-top          |
 | bubble-ping         |
+| bubble-spin         |
 | spinner-cub         |
 | spinner-circle      |
 | spinner-default     |
 | ekvalayzer          |
+
+<br />
 
     color and bgColor = rgb or hex
 
@@ -92,6 +97,11 @@ props
                 </div>
                 <div className={"item"}>
                     <Loader type="box-rectangular" bgColor={"#FFFFFF"} title={"box-rectangular"} />
+                </div>
+            </div>
+            <div className={"row"}>
+                <div className={"item"}>
+                    <Loader type="bubble-spin" bgColor={"#FFFFFF"} title={"bubble-spin"} />
                 </div>
             </div>
         </div>
