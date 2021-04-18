@@ -8,11 +8,20 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+ * {
+   padding: 0;
+   margin: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+
 .App {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
   background-color: #202c39;
   display: flex;
+  padding: 30px;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;

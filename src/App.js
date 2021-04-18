@@ -61,7 +61,13 @@ function App() {
       </div>
       <div className={"row"}>
         <div className={"item"}>
+          <Loader type="hourglass" bgColor={"#FFFFFF"} title={"hourglass"} />
+        </div>
+        <div className={"item"}>
           <Loader type="bubble-spin" bgColor={"#FFFFFF"} title={"bubble-spin"} />
+        </div>
+        <div className={"item"}>
+          <Loader type="rectangular-ping" bgColor={"#FFFFFF"} title={"rectangular-ping"} />
         </div>
       </div>
     </div>
