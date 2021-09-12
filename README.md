@@ -1,5 +1,7 @@
 # React-js-loader
 
+## [demo page](https://amurkhoyetsyan.github.io/smart-loaders/)
+
 ### Install
 
     npm i react-js-loader
