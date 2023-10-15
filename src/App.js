@@ -12,6 +12,8 @@
  import "./App.css";
  import ColorBar from "./ColorBar";
  import Loader from "react-js-loader";
+// import Loader from "./BabelJS";
+// import Loader from "./ReactJsForPublish";
 
  const App = props=> {
    const [color, setColor] = useState('#FFFFFF');
@@ -80,6 +82,9 @@
           <div className={"row"}>
             <div className={"item"}>
               <Loader type="bubble-loop" bgColor={color} color={color} title={"bubble-loop"} size={100} />
+            </div>
+            <div className={"item"}>
+              <Loader type="ping-cube" bgColor={color} color={color} title={"ping-cube"} size={100} />
             </div>
           </div>
         </div>

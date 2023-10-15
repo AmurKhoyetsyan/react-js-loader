@@ -8,10 +8,6 @@
 
 <img src="https://raw.githubusercontent.com/AmurKhoyetsyan/react-js-loader/master/img/loader.gif" alt="loader" />
 
-### For Pure JS Smart Loader
-
-[Smart Loader](https://github.com/AmurKhoyetsyan/smart-loaders)
-
 <br />
 
 ### Documentation
@@ -44,6 +40,7 @@ props
 | box-rotate-y        |
 | box-rotate-z        |
 | box-rectangular     |
+| ping-cube           |
 | heart               |
 | bubble-scale        |
 | bubble-top          |
@@ -76,62 +73,75 @@ props
     ....
 
     return (
-        <div className="App">
-            <div className={"row"}>
-                <div className={"item"}>
-                    <Loader type="box-rotate-x" bgColor={"#FFFFFF"} title={"box-rotate-x"} size={100} />
+        <div className={"App"}>
+            <div className={"content"}>
+                <div className={"zoom-out"}>
+                <ColorBar setColor={color => setColor(color)} />
+                <div className={"row"}>
+                    <div className={"item"}>
+                        <Loader type="box-rotate-x" bgColor={color} color={color} title={"box-rotate-x"} size={100} />
+                    </div>
+                    <div className={"item"}>
+                        <Loader type="box-rotate-y" bgColor={color} color={color} title={"box-rotate-y"} size={100} />
+                    </div>
+                    <div className={"item"}>
+                        <Loader type="box-rotate-z" bgColor={color} color={color} title={"box-rotate-z"} size={100} />
+                    </div>
+                    <div className={"item"}>
+                        <Loader type="box-up" bgColor={color} color={color} title={"box-up"} size={100} />
+                    </div>
                 </div>
-                <div className={"item"}>
-                    <Loader type="box-rotate-y" bgColor={"#FFFFFF"} title={"box-rotate-y"} size={100} />
+                <div className={"row"}>
+                    <div className={"item"}>
+                        <Loader type="bubble-scale" bgColor={color} color={color} title={"bubble-scale"} size={100} />
+                    </div>
+                    <div className={"item"}>
+                        <Loader type="heart" bgColor={color} color={color} title={"heart"} size={100} />
+                    </div>
+                    <div className={"item"}>
+                        <Loader type="bubble-top" bgColor={color} color={color} title={"bubble-top"} size={100} />
+                    </div>
+                    <div className={"item"}>
+                        <Loader type="spinner-cub" bgColor={color} color={color} title={"spinner-cub"} size={100} />
+                    </div>
                 </div>
-                <div className={"item"}>
-                    <Loader type="box-rotate-z" bgColor={"#FFFFFF"} title={"box-rotate-z"} size={100} />
+                <div className={"row"}>
+                    <div className={"item"}>
+                        <Loader type="spinner-circle" bgColor={color} color={color} title={"spinner-circle"} size={100} />
+                    </div>
+                    <div className={"item"}>
+                        <Loader type="spinner-default" bgColor={color} color={color} title={"spinner-default"} size={100} />
+                    </div>
+                    <div className={"item"}>
+                        <Loader type="bubble-ping" bgColor={color} color={color} title={"bubble-ping"} size={100} />
+                    </div>
+                    <div className={"item"}>
+                        <Loader type="ekvalayzer" bgColor={color} color={color} title={"ekvalayzer"} size={100} />
+                    </div>
                 </div>
-                <div className={"item"}>
-                    <Loader type="box-up" bgColor={"#FFFFFF"} title={"box-up"} size={100} />
+                <div className={"row"}>
+                    <div className={"item"}>
+                        <Loader type="box-rectangular" bgColor={color} color={color} title={"box-rectangular"} size={100} />
+                    </div>
+                    <div className={"item"}>
+                        <Loader type="hourglass" bgColor={color} color={color} title={"hourglass"} size={100} />
+                    </div>
+                    <div className={"item"}>
+                        <Loader type="bubble-spin" bgColor={color} color={color} title={"bubble-spin"} size={100} />
+                    </div>
+                    <div className={"item"}>
+                        <Loader type="rectangular-ping" bgColor={color} color={color} title={"rectangular-ping"} size={100} />
+                    </div>
                 </div>
-            </div>
-            <div className={"row"}>
-                <div className={"item"}>
-                    <Loader type="bubble-scale" bgColor={"#FFFFFF"} title={"bubble-scale"} size={100} />
-                </div>
-                <div className={"item"}>
-                    <Loader type="heart" bgColor={"#FFFFFF"} title={"heart"} size={100} />
-                </div>
-                <div className={"item"}>
-                    <Loader type="bubble-top" bgColor={"#FFFFFF"} title={"bubble-top"} size={100} />
-                </div>
-                <div className={"item"}>
-                    <Loader type="spinner-cub" bgColor={"#FFFFFF"} title={"spinner-cub"} size={100} />
-                </div>
-            </div>
-            <div className={"row"}>
-                <div className={"item"}>
-                    <Loader type="spinner-circle" bgColor={"#FFFFFF"} title={"spinner-circle"} size={100} />
-                </div>
-                <div className={"item"}>
-                    <Loader type="spinner-default" bgColor={"#FFFFFF"} title={"spinner-default"} size={100} />
-                </div>
-                <div className={"item"}>
-                    <Loader type="bubble-ping" bgColor={"#FFFFFF"} title={"bubble-ping"} size={100} />
-                </div>
-                <div className={"item"}>
-                    <Loader type="ekvalayzer" bgColor={"#FFFFFF"} title={"ekvalayzer"} size={100} />
-                </div>
-            </div>
-            <div className={"row"}>
-                <div className={"item"}>
-                    <Loader type="box-rectangular" bgColor={"#FFFFFF"} title={"box-rectangular"} size={100} />
-                </div>
-                <div className={"item"}>
-                    <Loader type="hourglass" bgColor={"#FFFFFF"} title={"hourglass"} size={100} />
-                </div>
-                <div className={"item"}>
-                    <Loader type="bubble-spin" bgColor={"#FFFFFF"} title={"bubble-spin"} size={100} />
-                </div>
-                <div className={"item"}>
-                    <Loader type="rectangular-ping" bgColor={"#FFFFFF"} title={"rectangular-ping"} size={100} />
+                <div className={"row"}>
+                    <div className={"item"}>
+                        <Loader type="bubble-loop" bgColor={color} color={color} title={"bubble-loop"} size={100} />
+                    </div>
+                    <div className={"item"}>
+                        <Loader type="ping-cube" bgColor={color} color={color} title={"ping-cube"} size={100} />
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
     );
