@@ -12,8 +12,6 @@
  import "./App.css";
  import ColorBar from "./ColorBar";
  import Loader from "react-js-loader";
-// import Loader from "./BabelJS";
-// import Loader from "./ReactJsForPublish";
 
  const App = props=> {
    const [color, setColor] = useState('#FFFFFF');
